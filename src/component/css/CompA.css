@@ -1,0 +1,28 @@
+.borderb{
+    border: 1px ridge rgb(226, 218, 218);
+    margin-bottom: 30px;
+}
+.tick-list {
+    list-style: none;
+  }
+  
+  .tick-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px; 
+  }
+  
+  .tick-list li::before {
+    content: "\2713"; 
+    position: absolute;
+    left: 0;
+  }
+  .button-plan{
+    width: 40%;
+    border-radius: 40px;
+    position: relative;
+    left: 25%;
+  }
+  .tick-list li.wrong-list::before {
+    content: "\2718";
+}
